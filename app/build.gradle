@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.elad113.knessetfight'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.elad113.knessetfight'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
